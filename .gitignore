@@ -1,0 +1,20 @@
+# Secrets — never commit. Real API keys live here; .env.example is the template.
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Caches
+hf_cache/
+.cache/
+
+# Local tooling config
+.claude/
+
+# Working notes: raw session transcript, contains personal details
+src/fill-implementation-plan.txt
+src/full-implementaion-plan.txt
+*.log
